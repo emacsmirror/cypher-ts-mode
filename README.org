@@ -1,0 +1,28 @@
+#+TITLE: Major Mode for Cypher files using Tree-Sitter
+#+AUTHOR: Julian Flake <flake@uni-koblenz.de>
+#+OPTIONS: toc:nil
+
+* Features
+- Function to install ~tree-sitter-cypher~ grammar library
+- Font lock configuration, keywords defined according to [[https://github.com/opencypher/openCypher/blob/main/cip/0.baseline/openCypher9.pdf][Cypher Query Language Reference, Version 9]]
+
+* Requirements
+- ~treesit.el~ (part of Emacs 29+)
+- ~tree-sitter-cypher~ grammar, [[https://github.com/taekwombo/tree-sitter-cypher][available here]].
+  You can install the grammar library with ~M-x cypher-ts-mode-install-grammar~
+
+* Configuration
+Using ~use-package~:
+#+begin_src emacs-lisp
+  (use-package cypher-ts-mode)
+#+end_src
+
+* Screenhots
+
+** Modus Vivendi
+[[./img/modus-vivendi.png]]
+** Modus Operandi
+[[./img/modus-operandi.png]]
+
+* Alernatives
+- There is also a non-tree-sitter major mode for Cypher files: https://github.com/fxbois/cypher-mode
