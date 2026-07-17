@@ -6,7 +6,7 @@
 ;; Maintainer: Julian Flake <flake@uni-koblenz.de>
 ;; Version: 0.0.1
 ;; Package-Requires: ((emacs "29.1"))
-;; Keywords: cypher graph database treesitter
+;; Keywords: languages files cypher graph database treesitter
 ;; URL: TODO
 
 ;; This file is *NOT* part of GNU Emacs.
