@@ -7,7 +7,7 @@
 ;; Version: 0.0.2
 ;; Package-Requires: ((emacs "29.1"))
 ;; Keywords: languages files cypher graph database treesitter
-;; URL: TODO
+;; URL: https://codeberg.org/nutcase/cypher-ts-mode
 
 ;; This file is *NOT* part of GNU Emacs.
 
