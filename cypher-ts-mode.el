@@ -4,7 +4,7 @@
 
 ;; Author: Julian Flake <flake@uni-koblenz.de>
 ;; Maintainer: Julian Flake <flake@uni-koblenz.de>
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Package-Requires: ((emacs "29.1"))
 ;; Keywords: languages files cypher graph database treesitter
 ;; URL: TODO
