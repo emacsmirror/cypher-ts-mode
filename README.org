@@ -19,11 +19,11 @@ Using ~use-package~:
 #+end_src
 
 * Screenhots
+** Modus Operandi
+[[./img/modus-operandi.png]]
 
 ** Modus Vivendi
 [[./img/modus-vivendi.png]]
-** Modus Operandi
-[[./img/modus-operandi.png]]
 
 * Alernatives
 - There is also a non-tree-sitter major mode for Cypher files: https://github.com/fxbois/cypher-mode
