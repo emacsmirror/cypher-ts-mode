@@ -4,7 +4,8 @@
 
 * Features
 - Function to install ~tree-sitter-cypher~ grammar library
-- Font lock configuration, keywords defined according to [[https://github.com/opencypher/openCypher/blob/main/cip/0.baseline/openCypher9.pdf][Cypher Query Language Reference, Version 9]]
+- Syntax highlighting: font lock configuration, keywords defined according to [[https://github.com/opencypher/openCypher/blob/main/cip/0.baseline/openCypher9.pdf][Cypher Query Language Reference, Version 9]]
+- Indentation: a few rules to indent query elements in a meaningful way
 
 * Requirements
 - ~treesit.el~ (part of Emacs 29+)
