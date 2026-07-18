@@ -10,11 +10,15 @@
 * Requirements
 - ~treesit.el~ (part of Emacs 29+)
 - ~tree-sitter-cypher~ grammar, [[https://github.com/taekwombo/tree-sitter-cypher][available here]].
-  You can install the grammar library with ~M-x cypher-ts-mode-install-grammar~
+You can install the grammar library with ~M-x cypher-ts-mode-install-grammar~
+
+* Installation
+This package is not available at MELPA, yet. You can clone this repository, e.g., at a specific release tag and add the directory to your loadpath.
 
 * Configuration
 Using ~use-package~:
 #+begin_src emacs-lisp
+  (add-to-list 'load-path "~/git/cypher-ts-mode")
   (use-package cypher-ts-mode)
 #+end_src
 
