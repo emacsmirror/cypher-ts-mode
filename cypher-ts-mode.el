@@ -109,8 +109,7 @@
       ((parent-is "pattern") parent 0)
       ((parent-is "expression") parent 0)
       ((parent-is "projection_items") parent 0)
-      (catch-all column-0 0)
-      )))
+      (catch-all column-0 0))))
   (treesit-major-mode-setup))
 
 ;;;###autoload
