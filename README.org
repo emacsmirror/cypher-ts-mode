@@ -18,8 +18,8 @@ This package is not available at MELPA, yet. You can clone this repository, e.g.
 * Configuration
 Using ~use-package~:
 #+begin_src emacs-lisp
-  (add-to-list 'load-path "~/git/cypher-ts-mode")
-  (use-package cypher-ts-mode)
+  (use-package cypher-ts-mode
+    :load-path "~/git/cypher-ts-mode")
 #+end_src
 
 * Screenhots
