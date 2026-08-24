@@ -2,8 +2,10 @@
 #+AUTHOR: Julian Flake <flake@uni-koblenz.de>
 #+OPTIONS: toc:nil
 
+#+COMMENT: Badges:
 [[http://melpa.org/#/cypher-ts-mode][http://melpa.org/packages/cypher-ts-mode-badge.svg]]
 [[http://stable.melpa.org/#/cypher-ts-mode][http://stable.melpa.org/packages/cypher-ts-mode-badge.svg]]
+[[https://packages.guix.gnu.org/packages/emacs-cypher-ts-mode][https://packages.guix.gnu.org/packages/emacs-cypher-ts-mode/badges/latest-version.svg]] 
 
 * Features
 - Function to install ~tree-sitter-cypher~ grammar library
